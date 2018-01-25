@@ -296,13 +296,14 @@ p {
 @media screen and (max-width: 480px) {
       label{
         height: 80px;
-
+        padding: 10px;
       }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   label{
         height: 80px;
+        padding: 10px;
         
       }
 }
@@ -311,6 +312,7 @@ p {
  
   label{
     height: 80px;
+    padding: 10px;
     
   }
 }
