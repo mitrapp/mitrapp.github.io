@@ -298,10 +298,6 @@ p {
         height: 80px;
 
       }
-      .col1_txt
-      {
-        padding: 10px;
-      }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -319,9 +315,10 @@ p {
  
   label{
     height: 80px;
-    }
-  .col1_txt  
-  {
-    padding: 10px;
+    
   }
+  .col1_txt
+      {
+        padding: 10px;
+      }
 }
