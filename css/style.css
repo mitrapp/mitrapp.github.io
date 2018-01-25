@@ -278,7 +278,7 @@ p {
 
 @media screen and (max-width: 480px) {
       label{
-        height: 70px;
+        height: 60px;
 
       }
       .col1
@@ -291,7 +291,7 @@ p {
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   label{
-        height: 70px;
+        height: 60px;
         }
         .col1
         {
@@ -304,7 +304,7 @@ p {
 @media screen and (min-width: 768px) and (max-width: 1024px) {
  
    label{
-        height: 80px;
+        height: 60px;
         }
         .col1
         {
