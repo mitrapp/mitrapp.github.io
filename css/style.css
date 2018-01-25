@@ -454,6 +454,11 @@ p {
       background-color: #eeeeee;
 
   }
+  label{
+    line-height: 90px;
+    font-size: 80px;
+    height: 80px;
+  }
   
 }
 
@@ -469,6 +474,10 @@ p {
        /* Fallback (could use .jpg/.png alternatively) */
       background-color: #eeeeee;
   }
-
+  label{
+    line-height: 90px;
+    font-size: 80px;
+    height: 80px;
+  }
   
 }
