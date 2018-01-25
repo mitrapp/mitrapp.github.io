@@ -247,7 +247,9 @@ section {
 #toggle7:checked ~ label[for*='7']:after, 
 #toggle8:checked ~ label[for*='8']:after,
 #toggle9:checked ~ label[for*='9']:after,
-#toggle10:checked ~ label[for*='10']:after{
+#toggle10:checked ~ label[for*='10']:after,
+#toggle11:checked ~ label[for*='11']:after,
+#toggle12:checked ~ label[for*='12']:after{
   transform: rotate(0deg);
 }
 
@@ -260,7 +262,9 @@ section {
 #toggle7:checked ~ #content7,
 #toggle8:checked ~ #content8,
 #toggle9:checked ~ #content9,
-#toggle10:checked ~ #content10 {
+#toggle10:checked ~ #content10,
+#toggle11:checked ~ #content11,
+#toggle12:checked ~ #content12 {
   height: auto;
   width: auto;
   margin: 0 auto;
