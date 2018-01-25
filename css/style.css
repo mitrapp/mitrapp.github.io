@@ -146,23 +146,7 @@ a
     	border: 1px solid #dfe8f1;
         margin-bottom: 10PX;
     }
-@media screen and (max-width: 768px) {
-  .col1
-  {
-    width: 46%;
-    margin: 2px;
-   
-    margin-bottom: 10px;
-    margin-top: 10px;
-    
-  }
 
-  .col2
-  {
-    width: 100%;
-    margin:2px;
-  }
-}
 /* toggle accordance */
 *, *:before, *:after {
   margin: 0;
