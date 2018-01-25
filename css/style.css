@@ -115,9 +115,7 @@ a
     }
       .col1:hover
     {
-      background-color: #e5322b;
-      color: #FFFFFF;
-      cursor: pointer;
+          cursor: pointer;
 
 
     }
@@ -129,7 +127,7 @@ a
      }
     .col1_txt
     {
-    	color:red;
+    	color:#FFFFFF;
     	text-align: center;
         vertical-align: middle;
       color: #2f2f2f;
