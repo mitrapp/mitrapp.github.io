@@ -535,5 +535,11 @@ p {
 #toggle9:checked ~ #content9 {
  margin-bottom: 15px;
 }
+label{
+  line-height: 100px;
+font-size: 40px;
+height: 120px;
+
+}
 
 }
