@@ -246,7 +246,8 @@ section {
 #toggle6:checked ~ label[for*='6']:after,
 #toggle7:checked ~ label[for*='7']:after, 
 #toggle8:checked ~ label[for*='8']:after,
-#toggle9:checked ~ label[for*='9']:after{
+#toggle9:checked ~ label[for*='9']:after,
+#toggle10:checked ~ label[for*='10']:after{
   transform: rotate(0deg);
 }
 
@@ -258,7 +259,8 @@ section {
 #toggle6:checked ~ #content6,
 #toggle7:checked ~ #content7,
 #toggle8:checked ~ #content8,
-#toggle9:checked ~ #content9 {
+#toggle9:checked ~ #content9,
+#toggle10:checked ~ #content10 {
   height: auto;
   width: auto;
   margin: 0 auto;
