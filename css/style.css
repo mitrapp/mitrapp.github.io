@@ -395,6 +395,12 @@ p {
     
   }
   
+  label{
+    line-height: 90px;
+    font-size: 30px;
+    height: 80px;
+  }
+  
 }
 
 
@@ -426,6 +432,12 @@ p {
       background-color: #eeeeee;
 
     
+  }
+  
+  label{
+    line-height: 90px;
+    font-size: 30px;
+    height: 80px;
   }
 }
 
