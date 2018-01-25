@@ -166,7 +166,7 @@ a
 /* toggle accordance */
 *, *:before, *:after {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   box-sizing: border-box;
 }
 .togglebox {
@@ -307,7 +307,7 @@ p {
 @media screen and (min-width: 480px) and (max-width: 768px) {
   label{
         height: 80px;
-        
+   
       }
       .col1_txt
       {
@@ -319,10 +319,8 @@ p {
  
   label{
     height: 80px;
-    
-  }
-  .col1_txt
-  
+    }
+  .col1_txt  
   {
     padding: 10px;
   }
