@@ -407,8 +407,8 @@ p {
       .col1_txt
       {
         font-size: 12px;
-        line-height: 12px;
-        padding: 6px;
+        line-height: 7px;
+        padding: 5px;
         margin-left: -3PX;
       }
       h4
@@ -498,7 +498,7 @@ p {
   
         }
         .contactustxt{
-          
+
           width: 100%;
           margin-top: 0px;
           margin-bottom: 0px;
