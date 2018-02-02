@@ -158,7 +158,7 @@ a
     margin:10px;
         width:20%;
         text-align:left;
-        
+        border:1px solid black;
         display:inline-block;    
        /* Fallback (could use .jpg/.png alternatively) */
       background-color: #e30613;
