@@ -102,7 +102,16 @@ h3
   font-size: 13px;
 
 }
-
+.headerTxt
+{
+  margin: 5px;
+  
+  text-align: center;
+}
+.contentOfHeadertxt
+{
+  margin: 2px;
+}
 .contactustxt
 {
   width:100%;
@@ -252,7 +261,7 @@ h4 {
     font-size:20px;
     margin:30px;
     border-left:solid 1px #e65941;
-    
+    border-right:solid 1px #e65941;
     padding:0 10px;
 }
 h4:before,h3:after {
@@ -276,7 +285,7 @@ label {
   line-height: 62px;
   padding: 0 20px;
   color: #1d1d1d;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 200;
   border-top: 1px solid #ddd;
  background-image:
@@ -399,7 +408,7 @@ p {
       }
       .col1
       {
-        width:auto;
+        width:47%;
         padding: 3px;
           margin: 0px;
       
@@ -434,9 +443,9 @@ p {
           width:48%;
            float: left;   
            text-align: left;
-           margin-top: 12px;
+           margin-top: 4px;
            margin-left: 1px;
-           margin-bottom: 12px;
+           margin-bottom: 4px;
            
         }
          .scDiv .textdiv
