@@ -34,7 +34,12 @@ body
     width: 100%;
     margin: 0 auto;  
 }
-
+.scDiv
+{
+  width:50%;
+  float: left;
+ 
+}
 a{
   text-decoration: none;
 }
@@ -234,6 +239,35 @@ input[type="radio"] {
   position: absolute;
   opacity: 0;
 }
+.col1
+{
+  width: 30%;
+}
+h3 {
+    position:relative;
+    font-family:Lato;
+    font-weight:300;
+    display:inline-block;
+    color:#222;
+    font-size:40px;
+    margin:30px;
+    border-left:solid 1px #e65941;
+    border-right:solid 1px #e65941;
+    padding:0 10px;
+}
+h3:before,h3:after {
+    position:absolute;
+    content:"";
+    border-bottom:1px solid #e65941;
+    width:30px;
+    bottom:23px
+}
+h3:before {
+    left:-30px
+}
+h3:after {
+    right:-30px
+}
 
 label {
   position: relative;
@@ -281,6 +315,7 @@ label:after {
   transition: .6s transform;
 }
 
+        
 
 /*
 .imgTag
@@ -378,6 +413,23 @@ p {
         display: table;
         margin-left: 0px;
       }
+      .scDiv
+        {
+          width:100%;
+           float: left;   
+           
+        }
+         .scDiv .textdiv
+        { 
+
+          display: block;
+            text-align: left;
+            margin-left: 12px;
+            padding: 10px;
+                padding-bottom: 0px;
+}
+
+        }
       .emailicon
       {
         margin-left: 0px
@@ -398,6 +450,12 @@ p {
           width: 100%;
           margin-top: 0px;
           margin-bottom: 0px;
+        }
+           .scDiv
+        {
+          width:100%;
+           float: left;   
+       
         }
         .cont_container
         {
@@ -420,13 +478,19 @@ p {
         }
         .col1
         {
-          width:40%;
+          width:20%;
   
         }
         .contactustxt{
           width: 100%;
           margin-top: 0px;
           margin-bottom: 0px;
+        }
+           .scDiv
+        {
+          width:50%;
+           float: left;   
+         
         }
         .cont_container
         {
