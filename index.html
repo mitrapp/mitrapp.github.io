@@ -47,7 +47,7 @@
 </div>
 </a>
 
-<a href="https://youtu.be/8fwQyzrHLfA" target="_blank"> 
+<a href="javascript:loadiframe();"> 
 
 <div class="box1">
        
@@ -529,12 +529,36 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
 </div>
 
   </section>
-  
+  <style type="text/css">
+    
+  </style>
 
 
 
 </div>
+<div id="pdfdiv_content">
+  <div style="width:100%; height: 25px; background: red;">
+
 </div>
+</div>
+
+
+
 </body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  
+  function loadiframe()
+  {
+    
+ $obj = $('<iframe>');
+$obj.attr("src","pdf/Electricity_and_Gas_Bill.pdf");
+
+
+
+$("#pdfdiv_content").append($obj);
+  }
+
+</script>
 </html>
 
