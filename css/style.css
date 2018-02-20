@@ -34,6 +34,14 @@ body
     width: 100%;
     margin: 0 auto;  
 }
+label img
+{
+  margin: -9px;
+}
+label span
+{
+  margin-left:  12px;
+}
 .scDiv
 {
   width:50%;

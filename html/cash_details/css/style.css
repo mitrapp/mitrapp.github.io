@@ -26,7 +26,33 @@ body
   padding-bottom: 120px; 
   width:98%;
 }
+#englishheadingWith
+{
+  display: block;
+}
 
+#hindiheadingWith
+{
+  display: none;
+}
+
+#englishheadingDepo
+{
+  display: block;
+}
+
+#hindiheadingDepo
+{
+  display: none;
+}
+#EngHeading
+{
+  display: block;
+}
+#HindiHeading
+{
+  display: none;
+}
 .containerDiv
 {
   width: 33%;
@@ -189,11 +215,11 @@ font-weight:500;
 }
 .subheading
 {
-	background:#808080;
+	background:#00af91;
 	text-align:center;
 	width:98%;
 	margin:0 auto;
-	font-size:14px;
+	font-size:16px;
   color: #ffffff;
   padding: 2px;
 	border-bottom:1px solid #cccccc;
