@@ -36,7 +36,7 @@ body
 }
 .accordion img
 {
-  margin: -9px;
+  margin: -11px;
   width: 35px;
 }
 .accordion span
@@ -313,7 +313,8 @@ p {
      
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
   
  .box1
      {
@@ -336,11 +337,7 @@ p {
      {
       text-align: center;
      }
-	 .cont_container {
-    width: 100%;
-    float: left;
-    margin-left: 25px;
-}
+	
  
 }
 
