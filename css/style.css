@@ -1,0 +1,392 @@
+      
+@font-face {
+  font-family: 'Tondo';
+  src: url('Fonts/Tondo_Corp_Rg.ttf'); /* IE9 Compat Modes */
+  src: url('Fonts/Tondo_Corp_Rg.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Super Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fonts/Tondo_Corp_Rg.ttf#svgFontName') format('svg'); /* Legacy iOS */
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Tondo', Fallback, sans-serif;
+}
+.header
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #e5322b;
+}
+
+.content_wrapper
+{
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper
+{
+    background: #e7e7e7;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;  
+}
+.accordion img
+{
+  margin: -9px;
+  width: 35px;
+}
+.accordion span
+{
+  margin-left:  12px;
+}
+.scDiv
+{
+  width:50%;
+  float: left;
+ 
+}
+a{
+  text-decoration: none;
+}
+.contactusSection
+{
+  text-align: left;
+  width: 100%;
+}
+.box1{
+    width: 180px;
+    margin: 20px;
+    margin-right: 0;
+    padding: 10px;
+    min-height: 150px;
+    position:relative;
+    display: inline-block;
+    background: -webkit-gradient(linear, 0% 20%, 0% 1000%, from(#fff), to(#fff), color-stop(.1,#f3f3f3));
+    border: 1px solid #ccc;
+    text-align: center;
+   /* -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    -webkit-border-bottom-right-radius: 6px 50px;    */
+}
+
+
+h3
+{
+  
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+  width:100%;
+  color:#595757;
+  margin:10px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.phoneicon
+{
+  background-image: url('../img/phone.png');
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  float: left;
+
+}
+.mitraicon
+{
+  background-image: url('../img/mitra_app.png');
+  background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  float: left;
+
+}
+.cont_container
+{
+  width: 20%;
+  float: left;
+  margin-left:25px;
+}
+.emailicon
+{
+  background-image: url('../img/email.png');
+  background-repeat: no-repeat;
+  width: 44px;
+  
+  height: 44px;
+  float: left;
+
+}
+.phonetxt
+{
+  float: left;
+  line-height: 42px;
+  margin-left: 2px;
+  font-size: 13px;
+
+}
+
+.boxContainer
+{
+  width: 100%;
+  text-align: left;
+
+
+}
+
+.box1 img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+p{ 
+    margin-top: 15px;
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+.headerTxt
+{
+  margin: 5px;
+  
+  text-align: center;
+}
+.contentOfHeadertxt
+{
+  margin: 5px;
+  text-align: center;
+}
+.contactustxt
+{
+  width:100%;
+  margin: 5px;
+display: table;
+height: 19px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+   
+/* toggle accordance */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.togglebox {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  transform: translateZ(0);
+ /*box-shadow: 0 1px 1px rgba(0,0,0,.1);*/
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+h4 {
+    position:relative;
+   
+    font-weight:600;
+    display:inline-block;
+    color:#222;
+    font-size:20px;
+    margin:30px;
+    border-left:solid 1px #e65941;
+    border-right:solid 1px #e65941;
+    padding:0 10px;
+}
+h4:before,h3:after {
+    position:absolute;
+    content:"";
+    
+    width:30px;
+    bottom:23px
+}
+h4:before {
+    left:-30px
+}
+h4:after {
+    right:-30px
+}
+
+
+
+
+
+
+
+
+
+p {
+  margin: 15px 0;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* end toggle accordance */
+
+
+@media screen and (max-width: 480px) {
+      label{
+        height: 57px;
+
+      }
+     .box1
+     {
+      width: 32%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 5px;
+      padding: 4px;
+      margin-bottom: 5px;
+      min-height: auto;
+     }
+.accordion-header h1
+{
+  font-size: 14px;
+
+}
+     p
+     {
+      margin-top: 12px;
+      font-size: 8px;
+      padding: 0 16px;
+     }
+
+     .boxContainer
+     {
+      text-align: center;
+     }
+      h4
+      {
+        font-size: 12px;
+        margin: 0px;
+        padding: 0 4px;
+      }
+      .contactustxt{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .cont_container
+      {
+        width: 100%;
+        display: table;
+        margin-left: 0px;
+      }
+      .scDiv
+        {
+          width:50%;
+           float: left;   
+           text-align: left;
+           margin-top: 4px;
+           margin-left: 0px;
+           margin-bottom: 4px;
+           
+        }
+         .scDiv .textdiv
+        { 
+
+         /* display: block;*/
+            text-align: left;
+            margin-left: 0px;
+            padding: 0px;
+                padding-bottom: 0px;
+}
+
+        }
+      .emailicon
+      {
+        margin-left: 0px
+      }
+     
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  
+ .box1
+     {
+      width: 30%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 5px;
+      padding: 4px;
+      margin-bottom: 5px;
+      min-height: auto;
+     }
+
+     p
+     {
+      margin: 0;
+      font-size: 8 px;
+     }
+
+     .boxContainer
+     {
+      text-align: center;
+     }
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+    .box1
+     {
+      width: 30%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 5px;
+      padding: 4px;
+      margin-bottom: 5px;
+      min-height: auto;
+     }
+
+     p
+     {
+      margin: 0;
+      font-size: 11px;
+
+     }
+
+     .boxContainer
+     {
+      text-align: center;
+     }
+   
+      
+        .contactustxt{
+
+          width: 100%;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+           .scDiv
+        {
+          width:50%;
+           float: left;   
+
+         
+        }
+        .cont_container
+        {
+          width: 100%;
+          display: table;
+          margin-left: 0px;
+        }
+        .emailicon
+        {
+          margin-left: 0px
+        }
+       
+}
