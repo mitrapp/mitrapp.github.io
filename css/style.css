@@ -336,6 +336,11 @@ p {
      {
       text-align: center;
      }
+	 .cont_container {
+    width: 100%;
+    float: left;
+    margin-left: 25px;
+}
  
 }
 
