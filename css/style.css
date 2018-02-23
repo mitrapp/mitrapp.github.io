@@ -27,6 +27,18 @@ body
   width: 100%;
   margin: 0 auto;
 }
+  .language {
+
+   font-size: 18px;
+color: #ffffff;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0 auto;
+text-align: center;
+background: gray ;
+    
+    }
 .wrapper
 {
     background: #e7e7e7;
@@ -38,6 +50,14 @@ body
 {
   margin: -11px;
   width: 35px;
+}
+#eng
+{
+	display:block;
+}
+#hindi
+{
+	display:none;
 }
 .accordion span
 {

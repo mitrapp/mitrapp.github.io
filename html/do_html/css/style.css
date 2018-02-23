@@ -25,7 +25,7 @@ body
 }
 .headertxt
 {
-  float:right;
+  
   font-size: 20px;
   line-height: 50px;
   font-weight: bold;
@@ -52,7 +52,7 @@ padding: 10px;
 
 .headertxt span
 {
-    float: right;
+    
     font-size: .8em;
     font-weight: 400;
     line-height: 16px;
@@ -64,6 +64,7 @@ padding: 10px;
     background: #e5322b;
     display: table;
     width: 100%;
+    text-align: center;
 }
 h5
 {
