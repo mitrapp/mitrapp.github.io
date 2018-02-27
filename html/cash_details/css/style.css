@@ -15,6 +15,18 @@ body
   background-color: #EC2127;
   
 }
+
+.backbtn
+{
+  float: left;
+  margin:0;
+  padding:0;
+}
+.backbtn img {
+    width: 70px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
 .wrapper
 {
   
@@ -229,8 +241,8 @@ font-weight:500;
    font-size: 18px;
 color: #ffffff;
 width: 100%;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
 margin: 0 auto;
 text-align: center;
 background: gray ;
