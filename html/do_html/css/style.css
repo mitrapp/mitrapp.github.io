@@ -112,7 +112,7 @@ background: gray ;
 {
   width: 98%;
   margin: 0 auto;
-  background: url(../img/back_new.png) no-repeat center center fixed;
+  background: #ffffff;
     background-size: auto auto;
 -webkit-background-size: cover;
 -moz-background-size: cover;
