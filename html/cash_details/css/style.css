@@ -22,6 +22,11 @@ body
   margin:0;
   padding:0;
 }
+
+.language span
+{
+  display: inline-block;
+}
 .backbtn img {
     width: 36px;
     padding: 2px;
