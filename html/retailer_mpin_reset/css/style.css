@@ -22,8 +22,8 @@ body
   padding:0;
 }
 .backbtn img {
-    width: 70px;
-    padding: 5px;
+    width: 34px;
+    padding: 4px;
     padding-bottom: 0;
 }
 .wrapper
@@ -260,8 +260,8 @@ font-weight:500;
 color: #ffffff;
 width: 100%;
 
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 margin: 0 auto;
 text-align: center;
 background: gray ;
@@ -554,7 +554,7 @@ padding: 0 30px 30px;
 }
 .backbtn img
 {
-  width: 70px;
+  width: 34px;
 }
 .contentxt
 {
