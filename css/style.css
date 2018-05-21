@@ -67,6 +67,15 @@ background: gray ;
 {
 	display:none;
 }
+#bengali{
+  display: none;
+}
+#marathi{
+  display: none;
+}
+#telugu{
+  display: none;
+}
 .accordion span
 {
   margin-left:  12px;
