@@ -76,6 +76,24 @@ background: gray ;
 #telugu{
   display: none;
 }
+#oriya{
+  display: none;
+}
+#gujarati{
+  display: none;
+}
+#malayalam{
+  display: none;
+}
+#kannada{
+  display: none;
+}
+#punjabi{
+  display: none;
+}
+#tamil{
+  display: none;
+}
 .accordion span
 {
   margin-left:  12px;
