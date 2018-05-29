@@ -190,6 +190,15 @@ h3
 
 
 }
+.backimage{
+      width: 36px;
+   
+}
+.backbutton{
+   float: left;
+    margin-left: 5px;
+    margin-top: -5px;
+}
 
 .box1 img {
     width: 100%;

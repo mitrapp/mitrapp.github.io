@@ -15,10 +15,12 @@
 	
 	</head>
 	<body>
+   
 	   <div class="language">Language (भाषा)
 <select id="lang_list" onchange="datalist();">
-  <option value="english" selected>English</option>
-  <option value="hindi">हिंदी</option>
+<!--   <option value="" selected disabled hidden>Choose here</option> -->
+  <option value="english">English</option>
+  <option value="hindi"  >हिंदी</option>
   <option value="bengali">বাঙালি</option>
   <option value="marathi">मराठी</option>
   <option value="telugu">తెలుగు</option>
@@ -30,6 +32,11 @@
   <option value="punjabi">ਪੰਜਾਬੀ</option>
   
 </select>
+ <div class="backbutton">
+      <a  href="index.html"><img class="backimage" src="img/backbtn.png"></a>
+    </div>
+
+   
       </div>
 
       
@@ -2923,12 +2930,15 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
 		</script>
 
 		<script>
+        
       function getId()
       {
+
         var baseUrl = (window.location).href; // You can also use document.URL
         var koopId = baseUrl.substring(baseUrl.lastIndexOf('=') + 1);
         if(koopId==1)
         {
+          document.getElementById("lang_list").selectedIndex = 0;
           $("#eng").show();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -2943,6 +2953,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==2)
         {
+           document.getElementById("lang_list").selectedIndex = 1;
           $("#eng").hide();
           $("#hindi").show();
           $("#bengali").hide();
@@ -2957,6 +2968,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==3)
         {
+          document.getElementById("lang_list").selectedIndex = 2;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").show();
@@ -2971,6 +2983,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==4)
         {
+           document.getElementById("lang_list").selectedIndex = 3;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -2985,6 +2998,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==5)
         {
+           document.getElementById("lang_list").selectedIndex = 4;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -2999,6 +3013,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==6)
         {
+           document.getElementById("lang_list").selectedIndex = 5;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -3013,6 +3028,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==7)
         {
+           document.getElementById("lang_list").selectedIndex = 6;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -3027,6 +3043,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==8)
         {
+           document.getElementById("lang_list").selectedIndex = 7;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -3041,6 +3058,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==9)
         {
+           document.getElementById("lang_list").selectedIndex = 8;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -3055,6 +3073,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==10)
         {
+           document.getElementById("lang_list").selectedIndex = 9;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -3069,6 +3088,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         }
         else if(koopId==11)
         {
+           document.getElementById("lang_list").selectedIndex = 10;
           $("#eng").hide();
           $("#hindi").hide();
           $("#bengali").hide();
@@ -3084,7 +3104,7 @@ E-Mail: fraud.reporting@airtelbank.com’ -->
         
       }
 		 function datalist(){  
-			var text = $('#lang_list :selected').val();
+		var text = $('#lang_list :selected').val();
 			
 			if(text=="english")
 			{

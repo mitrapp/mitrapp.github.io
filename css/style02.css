@@ -28,10 +28,9 @@ body {
 }
 
 .boxContainer img {
-	height: 420px;
-	width: auto;
-	margin-top: -4.0em;
-	position: sticky;
+	    height: 100%;
+    width: 270px;
+    margin-top: 3em;
 }
 
 /*.language {
@@ -56,7 +55,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-top: -12px;
+    margin-top: 12px;
 }
 
 .dropdown-content {
@@ -75,30 +74,43 @@ body {
     text-decoration: none;
     display: block;
     padding: 8px;
+
 }
 
 .dropdown-content a:hover {
 	background-color: #3399ff;
 	color: #ffffff;
+
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+
 }
 
 .dropdown:hover .dropbtn {
     background-color: #DC1313;
+
+}
+.textdiv{
+    
+  
+    color: white;
+    font-size: 1.6em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
 }
 
 @media screen and (max-width: 479px){
 	label{
       height: 57px;
   }
-.boxContainer img {
-    height: 205px;
-    width: auto;
-    margin-top: -3.3em;
-}
+
 .logo img {
     height: 10px;
     width: auto;
@@ -106,7 +118,17 @@ body {
     margin-bottom: -8px;
 }
 
-
+.pp {
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.boxContainer img {
+    height: 100%;
+    width: 200px;
+    margin-top: 1.5em;
+}
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	label{
@@ -118,9 +140,11 @@ body {
     margin-left: 14px;
     margin-bottom: -8px;
 }
-.boxContainer img {
-    height: 234px;
-    width: auto;
-    margin-top: -6.0em;
+
+.pp {
+    color: white;
+    font-size: 1.3em;
+    font-weight: lighter;
+    font-family: sans-serif;
 }
 }
