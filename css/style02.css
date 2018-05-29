@@ -118,9 +118,9 @@ body {
     margin-bottom: -8px;
 }
 
-.pp {
+.textdiv {
     color: white;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: lighter;
     font-family: sans-serif;
 }
@@ -128,6 +128,11 @@ body {
     height: 100%;
     width: 200px;
     margin-top: 1.5em;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 3px;
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
