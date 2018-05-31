@@ -134,7 +134,12 @@ body {
     display: inline-block;
     margin-top: 3px;
 }
+.dropdown-content a {
+	font-size:12px;
+	padding:4px;
+}
 
+}
 @media screen and (min-width: 481px) and (max-width: 768px) {
 	label{
       height: 57px;
