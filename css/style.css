@@ -25,7 +25,7 @@ body
 .counter
 {
 	bottom:0;
-	position:absolute;
+	width:100%;
 	margin:0 auto;
 }
 .counter img

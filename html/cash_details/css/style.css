@@ -22,6 +22,18 @@ body
   margin:0;
   padding:0;
 }
+.counter
+{
+	bottom:0;
+	
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+.counter img
+{
+	height:20px;
+}
 
 .language span
 {
