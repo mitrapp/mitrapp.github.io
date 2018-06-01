@@ -15,6 +15,18 @@ body
   background-color: #EC2127;
   
 }
+.counter
+{
+	bottom:0;
+	
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+.counter img
+{
+	height:20px;
+}
 .backbtn
 {
   float: left;
