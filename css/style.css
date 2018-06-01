@@ -22,7 +22,16 @@ body
     text-align: center;
     background: #e5322b;
 }
-
+.counter
+{
+	bottom:0;
+	position:absolute;
+	margin:0 auto;
+}
+.counter img
+{
+	height:20px;
+}
 h1
 {
   color: #F02F22;

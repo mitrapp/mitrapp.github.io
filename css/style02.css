@@ -21,7 +21,18 @@ body {
 	margin-left: 30px;
 	margin-bottom: -30px;
 }
-
+.counter
+{
+	bottom:0;
+	position:absolute;
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+.counter img
+{
+	height:20px;
+}
 .boxContainer {
   width: 100%;
   text-align: center;
